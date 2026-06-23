@@ -1,0 +1,25 @@
+# --- Private career-planning materials -------------------------------
+# This is a PUBLIC repository. These notes must never be committed.
+career/
+
+# --- Jekyll build output ---------------------------------------------
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# --- Local Ruby/Bundler (only if you preview the site locally) -------
+vendor/
+.bundle/
+
+# --- LaTeX build artifacts (CV) --------------------------------------
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.run.xml
+*.synctex.gz
+texput.log

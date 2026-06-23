@@ -56,6 +56,38 @@
       \true{nocite}
       \keyw{YEAR-2025}
     \endentry
+    \entry{arkor25idemprelmnd}{article}{}{}
+      \name{author}{2}{}{%
+        {{hash=731db6a804eca68346a946f7c1ebe88c}{%
+           family={Arkor},
+           familyi={A\bibinitperiod},
+           given={Nathanael},
+           giveni={N\bibinitperiod}}}%
+        {{hash=795f59e6a298d3fa77165ca0228db408}{%
+           family={Slattery},
+           familyi={S\bibinitperiod},
+           given={Andrew},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{7530dcc7f61987ba131a6bcfd740f6f6}
+      \strng{fullhash}{7530dcc7f61987ba131a6bcfd740f6f6}
+      \strng{fullhashraw}{7530dcc7f61987ba131a6bcfd740f6f6}
+      \strng{bibnamehash}{7530dcc7f61987ba131a6bcfd740f6f6}
+      \strng{authorbibnamehash}{7530dcc7f61987ba131a6bcfd740f6f6}
+      \strng{authornamehash}{7530dcc7f61987ba131a6bcfd740f6f6}
+      \strng{authorfullhash}{7530dcc7f61987ba131a6bcfd740f6f6}
+      \strng{authorfullhashraw}{7530dcc7f61987ba131a6bcfd740f6f6}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Preprint, submitted to Quaestiones Mathematicae}
+      \field{title}{Idempotence for relative monads}
+      \field{year}{2025}
+      \field{dateera}{ce}
+      \true{nocite}
+      \keyw{YEAR-2025}
+    \endentry
     \entry{slattery25hflifting}{inproceedings}{}{}
       \name{author}{2}{}{%
         {{hash=795f59e6a298d3fa77165ca0228db408}{%
@@ -87,7 +119,9 @@
       \field{booktitle}{Proceedings of the 40th Annual ACM/IEEE Symposium on Logic in Computer Science (LICS)}
       \field{title}{Hofmann–Streicher lifting of fibred categories}
       \field{year}{2025}
+      \field{dateera}{ce}
       \true{nocite}
+      \keyw{YEAR-2025}
     \endentry
     \entry{slattery23pscomlaxid}{article}{}{}
       \name{author}{1}{}{%

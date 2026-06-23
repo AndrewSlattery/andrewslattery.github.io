@@ -1,0 +1,17 @@
+# Site configuration for https://aslattery.co.uk (GitHub Pages + Jekyll)
+title: Andrew Slattery
+description: Research Associate in Category Theory, University of Cambridge (Computer Science and Technology).
+url: https://aslattery.co.uk
+
+# Markdown engine (GitHub Pages default)
+markdown: kramdown
+
+# Files/folders that must never be built into the public site.
+# (career/ is also git-ignored so it is never committed — see .gitignore.)
+exclude:
+  - career/
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - .bundle/

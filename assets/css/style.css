@@ -1,0 +1,74 @@
+/* ------------------------------------------------------------------
+   Styling for https://aslattery.co.uk
+   Content is in /index.md; the page frame is in /_layouts/default.html
+   ------------------------------------------------------------------ */
+
+* { box-sizing: border-box; }
+
+body {
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  margin: 0 0 4ex 0;
+  line-height: 1.5;
+}
+
+/* Header bar -------------------------------------------------------- */
+header {
+  background: #001f08;
+  padding: 1ex 1ex 1.4ex 1ex;
+}
+
+header h1 {
+  color: #ffffff;
+  font-size: 26pt;
+  font-weight: 300;
+  margin: 0;
+}
+
+header h2 {
+  color: #dbdbdb;
+  font-size: 11pt;
+  font-weight: 400;
+  margin: 1ex 0 0 0;
+}
+
+header a {
+  color: #dbdbdb;
+  text-decoration: none;
+  font-weight: 400;
+}
+
+header a:hover { text-decoration: underline; }
+
+.fake-at::before { content: "@"; }
+
+/* Main column ------------------------------------------------------- */
+main {
+  max-width: 60em;
+  color: #58595b;
+  font-size: 11pt;
+  padding: 0 2em;
+}
+
+main a { color: #414042; }
+
+main h3 {
+  font-size: 17pt;
+  font-weight: 300;
+  margin: 1.4em 0 0.3em 0;
+}
+
+main ul { padding-left: 1.2em; }
+main li { margin: 0.4em 0; }
+
+/* Section-heading accent colours (assigned by the {: .class} lines in index.md) */
+.preprints { color: #1f9c19; }
+.papers    { color: #be1e2d; }
+.talks     { color: #7a1501; }
+.thesis    { color: #757575; }
+.expo      { color: #a08022; }
+
+/* Small screens ----------------------------------------------------- */
+@media (max-width: 480px) {
+  header h1 { font-size: 21pt; }
+  main { padding: 0 1.1em; }
+}
