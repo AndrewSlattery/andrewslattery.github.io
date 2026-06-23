@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.6.14)  23 JUN 2026 15:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.6.14)  23 JUN 2026 16:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -815,12 +815,12 @@ Package microtype Info: Character `textcelsius ' is missing
 (microtype)             in font `TS1/XCharter-TOsF/m/n/10.95'.
 (microtype)             Ignoring protrusion settings for this character.
 
-Overfull \hbox (8.48793pt too wide) in paragraph at lines 28--40
+Overfull \hbox (8.48793pt too wide) in paragraph at lines 28--48
 [] 
  []
 
 
-Overfull \hbox (8.48793pt too wide) in paragraph at lines 43--65
+Overfull \hbox (8.48793pt too wide) in paragraph at lines 51--73
 [] 
  []
 
@@ -843,12 +843,21 @@ Package biblatex Warning: Split bibliography detected.
 (biblatex)                '\BiblatexSplitbibDefernumbersWarningOff'.
 
 
-Overfull \hbox (8.48793pt too wide) in paragraph at lines 73--78
+Package biblatex Warning: Split bibliography detected.
+(biblatex)                Many simple split bibliography setups with
+(biblatex)                non-overlapping bibliographies benefit from
+(biblatex)                setting 'defernumbers=true'.
+(biblatex)                See the documentation for details.
+(biblatex)                This warning can be suppressed with
+(biblatex)                '\BiblatexSplitbibDefernumbersWarningOff'.
+
+
+Overfull \hbox (8.48793pt too wide) in paragraph at lines 81--87
 [] 
  []
 
 
-Overfull \hbox (8.48793pt too wide) in paragraph at lines 81--122
+Overfull \hbox (8.48793pt too wide) in paragraph at lines 90--131
 [] 
  []
 
@@ -863,12 +872,12 @@ wesome5/fa5free0.enc}{C:/Users/awsla/AppData/Local/Programs/MiKTeX/fonts/enc/dv
 ips/fontawesome5/fa5brands1.enc}{C:/Users/awsla/AppData/Local/Programs/MiKTeX/f
 onts/enc/dvips/fontawesome5/fa5brands0.enc}{C:/Users/awsla/AppData/Local/Progra
 ms/MiKTeX/fonts/enc/dvips/xcharter/xch1_co4ru4.enc}]
-Overfull \hbox (8.48793pt too wide) in paragraph at lines 124--154
+Overfull \hbox (8.48793pt too wide) in paragraph at lines 133--164
 [] 
  []
 
 
-Overfull \hbox (8.48793pt too wide) in paragraph at lines 157--162
+Overfull \hbox (8.48793pt too wide) in paragraph at lines 167--172
 [] 
  []
 
@@ -884,11 +893,11 @@ Package logreq Info: Writing requests to 'CV_Andrew_Slattery.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 23876 strings out of 467871
- 439159 string characters out of 5418376
- 1311612 words of memory out of 5000000
- 52398 multiletter control sequences out of 15000+600000
- 681499 words of font info for 123 fonts, out of 8000000 for 9000
+ 23887 strings out of 467871
+ 439458 string characters out of 5418376
+ 1314612 words of memory out of 5000000
+ 52397 multiletter control sequences out of 15000+600000
+ 682831 words of font info for 131 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  78i,10n,87p,1017b,1516s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\awsla\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt
@@ -900,7 +909,7 @@ ee-Solid.pfb><C:/Users/awsla/AppData/Local/Programs/MiKTeX/fonts/type1/public/x
 charter/XCharter-Bold.pfb><C:/Users/awsla/AppData/Local/Programs/MiKTeX/fonts/t
 ype1/public/xcharter/XCharter-Italic.pfb><C:/Users/awsla/AppData/Local/Programs
 /MiKTeX/fonts/type1/public/xcharter/XCharter-Roman.pfb>
-Output written on CV_Andrew_Slattery.pdf (2 pages, 246094 bytes).
+Output written on CV_Andrew_Slattery.pdf (2 pages, 246310 bytes).
 PDF statistics:
  121 PDF objects out of 1000 (max. 8388607)
  14 named destinations out of 1000 (max. 500000)

@@ -1,0 +1,130 @@
+# =====================================================================
+#  THE CONTENT OF THE SITE.  Edit this file to update aslattery.co.uk.
+#  Each entry can use these fields (all optional except `title`):
+#    title:
+#    coauthors:  [ { name: ..., url: ... }, ... ]   -> "(with **Name** and **Name**)"
+#    venue:      ...        venue_url: ...           -> italic, linked if a url is given
+#    year:       ...
+#    note:       ...                                  -> after an em dash, in italics
+#    links:      [ { label: arXiv, url: ... }, ... ]  -> "[ arXiv ]"
+#  Rendering template: /index.html   |   Styling: /assets/css/style.css
+# =====================================================================
+
+intro: >-
+  I work in higher category theory and its applications to logic and computer
+  science. My interests include relative monads and pseudomonads,
+  multicategories, and the categorical semantics of type theory.
+
+sections:
+  - heading: Preprints and submitted work
+    class: preprints
+    entries:
+      - title: Idempotence for relative monads
+        coauthors:
+          - { name: Nathanael Arkor, url: "https://arkor.co/" }
+        year: 2025
+        note: submitted for publication
+        links:
+          - { label: arXiv, url: "https://arxiv.org/abs/2508.17794" }
+      - title: Bicategories of algebras for relative pseudomonads
+        coauthors:
+          - { name: Nathanael Arkor, url: "https://arkor.co/" }
+          - { name: Philip Saville, url: "https://philipsaville.co.uk/" }
+        year: 2025
+        links:
+          - { label: arXiv, url: "https://arxiv.org/abs/2501.12510" }
+
+  - heading: Papers
+    class: papers
+    entries:
+      - title: Hofmann–Streicher lifting of fibred categories
+        coauthors:
+          - { name: Jon Sterling, url: "https://www.jonmsterling.com/" }
+        venue: Logical Methods in Computer Science
+        venue_url: "https://lmcs.episciences.org/18548"
+        year: 2026
+        note: conference version in LICS 2025
+        links:
+          - { label: arXiv, url: "https://arxiv.org/abs/2504.09520" }
+      - title: Pseudocommutativity and lax idempotency for relative pseudomonads
+        venue: Theory and Applications of Categories
+        venue_url: "http://www.tac.mta.ca/tac/volumes/39/34/39-34abs.html"
+        year: 2023
+
+  - heading: PhD thesis
+    class: thesis
+    entries:
+      - title: Commutativity of Relative Pseudomonads
+        venue: University of Leeds
+        venue_url: "https://www.leeds.ac.uk/"
+        year: 2024
+        links:
+          - { label: eThesis, url: "https://etheses.whiterose.ac.uk/id/eprint/35372/" }
+
+  - heading: Talks
+    class: talks
+    entries:
+      - title: Hofmann–Streicher lifting of fibred categories
+        venue: LICS 2025
+        venue_url: "https://lics.siglog.org/lics25/"
+        year: 2025
+        links:
+          - { label: slides, url: "files/Talks+Posters/2025-LICS40-Hofmann-Streicher_lifting_of_fibred_categories.pdf" }
+      - title: Bicategories of algebras for relative pseudomonads
+        venue: CT2024
+        venue_url: "https://www.usc.gal/regaca/ct2024/"
+        year: 2024
+        links:
+          - { label: poster, url: "files/Talks+Posters/2024-CT2024-Bicategories_of_algebras_for_relative_pseudomonads.pdf" }
+      - title: Presheaf algebras are cocomplete categories
+        venue: University of Manchester Category Theory Seminar
+        venue_url: "https://www.maths.manchester.ac.uk/"
+        year: 2023
+        links:
+          - { label: poster, url: "files/Talks+Posters/2023-UoM_CT_Seminar-Presheaf_algebras_are_cocomplete_categories.pdf" }
+      - title: Pseudocommutativity and lax idempotency for relative pseudomonads
+        venue: CT2023
+        venue_url: "https://sites.uclouvain.be/ct2023/"
+        year: 2023
+        links:
+          - { label: poster, url: "files/Talks+Posters/2023-CT2023-Pseudocommutativity_and_lax_idempotency_for_relative_pseudomonads.pdf" }
+      - title: Pseudocommutativity for relative pseudomonads
+        venue: PSSL 107
+        venue_url: "https://sites.google.com/view/pssl-107-athens/schedule"
+        year: 2023
+        links:
+          - { label: slides, url: "files/Talks+Posters/2023-PSSL_107-Pseudocommutativity_for_relative_pseudomonads.pdf" }
+      - title: Property-like structures and relative pseudomonads
+        venue: YaMCATS 27
+        venue_url: "https://conferences.leeds.ac.uk/yamcats/meeting27/"
+        year: 2022
+        links:
+          - { label: slides, url: "files/Talks+Posters/2022-YAMCaTS_27-Property-like_structures_and_relative_pseudomonads.pdf" }
+      - title: The 2-category of algebras over a relative 2-monad
+        venue: University of Leeds PCCC Seminar
+        venue_url: "https://eps.leeds.ac.uk/maths"
+        year: 2021
+        links:
+          - { label: slides, url: "files/Talks+Posters/2021-UoL_PCCC_Seminar-The_2-category_of_algebras_over_a_relative_2-monad.pdf" }
+      - title: Varieties of relative monad
+        venue: University of Leeds first-year transfer interview
+        venue_url: "https://eps.leeds.ac.uk/maths"
+        year: 2021
+        links:
+          - { label: slides, url: "files/Talks+Posters/2021-UoL_Transfer_Interview-Varieties_of_relative_monad.pdf" }
+      - title: Well-quasiorders and Kruskal's Tree Theorem
+        venue: University of Leeds Postgraduate Logic Seminar
+        venue_url: "https://eps.leeds.ac.uk/maths"
+        year: 2021
+        links:
+          - { label: slides, url: "files/Talks+Posters/2021-UoL_PG_Seminar-Well-quasiorders_and_Kruskal's_Tree_Theorem.pdf" }
+
+  - heading: Master's essay
+    class: thesis
+    entries:
+      - title: Well-quasiorders
+        venue: University of Cambridge
+        venue_url: "https://www.cam.ac.uk/"
+        year: 2020
+        links:
+          - { label: pdf, url: "files/Master's/2020-UoC_Part_III-Well-quasiorders.pdf" }

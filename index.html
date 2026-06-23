@@ -1,0 +1,22 @@
+---
+layout: default
+title: Andrew Slattery
+---
+
+<!--
+  This page is a TEMPLATE: it renders the content stored in
+  /_data/publications.yml. To update the site, edit that YAML file, not this
+  one. The header frame is in /_layouts/default.html and styling is in
+  /assets/css/style.css.
+-->
+
+<p>{{ site.data.publications.intro }}</p>
+
+{% for section in site.data.publications.sections %}
+  <h3 class="{{ section.class }}">{{ section.heading }}</h3>
+  <ul>
+  {% for e in section.entries %}
+    <li>{{ e.title }}{% if e.coauthors %} (with {% for c in e.coauthors %}{% if forloop.first %}{% elsif forloop.last %} and {% else %}, {% endif %}<strong><a href="{{ c.url }}">{{ c.name }}</a></strong>{% endfor %}){% endif %}{% if e.venue %}, <em>{% if e.venue_url %}<a href="{{ e.venue_url }}">{{ e.venue }}</a>{% else %}{{ e.venue }}{% endif %}</em>{% endif %}{% if e.year %}, {{ e.year }}{% endif %}{% if e.note %} &mdash; <em>{{ e.note }}</em>{% endif %}{% if e.links %} {% for l in e.links %}[ <a href="{{ l.url }}">{{ l.label }}</a> ]{% endfor %}{% endif %}</li>
+  {% endfor %}
+  </ul>
+{% endfor %}

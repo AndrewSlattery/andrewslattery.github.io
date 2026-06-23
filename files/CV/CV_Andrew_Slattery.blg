@@ -1,15 +1,15 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'CV_Andrew_Slattery.blg'
-[135] biber-MSWIN64:342> INFO - === 
-[194] Biber.pm:421> INFO - Reading 'CV_Andrew_Slattery.bcf'
-[330] Biber.pm:999> INFO - Using all citekeys in bib section 0
-[342] Biber.pm:4487> INFO - Processing section 0
-[356] Biber.pm:4678> INFO - Looking for bibtex file 'CV_Andrew_Slattery.bib' for section 0
-[456] bibtex.pm:1713> INFO - LaTeX decoding ...
-[475] bibtex.pm:1519> INFO - Found BibTeX data source 'CV_Andrew_Slattery.bib'
-[535] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[535] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
-[536] Biber.pm:4307> INFO - Sorting list 'ydnt/global//global/global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
-[536] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
-[542] bbl.pm:676> INFO - Writing 'CV_Andrew_Slattery.bbl' with encoding 'UTF-8'
-[545] bbl.pm:779> INFO - Output to CV_Andrew_Slattery.bbl
+[147] biber-MSWIN64:342> INFO - === 
+[213] Biber.pm:421> INFO - Reading 'CV_Andrew_Slattery.bcf'
+[331] Biber.pm:999> INFO - Using all citekeys in bib section 0
+[344] Biber.pm:4487> INFO - Processing section 0
+[359] Biber.pm:4678> INFO - Looking for bibtex file 'CV_Andrew_Slattery.bib' for section 0
+[457] bibtex.pm:1713> INFO - LaTeX decoding ...
+[476] bibtex.pm:1519> INFO - Found BibTeX data source 'CV_Andrew_Slattery.bib'
+[541] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[541] UCollate.pm:68> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[541] Biber.pm:4307> INFO - Sorting list 'ydnt/global//global/global/global' of type 'entry' with template 'ydnt' and locale 'en-US'
+[541] Biber.pm:4313> INFO - No sort tailoring available for locale 'en-US'
+[545] bbl.pm:676> INFO - Writing 'CV_Andrew_Slattery.bbl' with encoding 'UTF-8'
+[548] bbl.pm:779> INFO - Output to CV_Andrew_Slattery.bbl
