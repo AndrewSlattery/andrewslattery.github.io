@@ -23,7 +23,7 @@ sections:
         coauthors:
           - { name: Nathanael Arkor, url: "https://arkor.co/" }
         year: 2025
-        note: submitted for publication
+        note: submitted
         links:
           - { label: arXiv, url: "https://arxiv.org/abs/2508.17794" }
       - title: Bicategories of algebras for relative pseudomonads
@@ -31,6 +31,7 @@ sections:
           - { name: Nathanael Arkor, url: "https://arkor.co/" }
           - { name: Philip Saville, url: "https://philipsaville.co.uk/" }
         year: 2025
+        note: submitted
         links:
           - { label: arXiv, url: "https://arxiv.org/abs/2501.12510" }
 

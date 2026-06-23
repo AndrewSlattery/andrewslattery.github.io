@@ -81,7 +81,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{preprint}
+      \field{journaltitle}{preprint, submitted}
       \field{title}{Bicategories of algebras for relative pseudomonads}
       \field{year}{2025}
       \field{dateera}{ce}
@@ -113,7 +113,7 @@
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Preprint, submitted for publication}
+      \field{journaltitle}{preprint, submitted}
       \field{title}{Idempotence for relative monads}
       \field{year}{2025}
       \field{dateera}{ce}
